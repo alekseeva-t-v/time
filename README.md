@@ -22,6 +22,6 @@
 ![REACT](./public/images/react.svg)
 ![GIT](./public/images/git.svg)
 
-## [**Демо**](https://store-func.vercel.app/)
+## [**Демо**](https://time-brown-gamma.vercel.app/)
 
 ![demo](./public/images/demo.jpg)
