@@ -1,15 +1,19 @@
+import React from "react";
 import DateTime from "./DateTime";
+import withDateTimePretty from "./withDateTimePretty";
+
+const DateTimePretty = withDateTimePretty(DateTime);
 
 const Video = (props) => {
+  const { url, date } = props
   return (
     <div className="video">
       <iframe
-        src={props.url}
-        frameborder="0"
+        src={url}
+        title={url}
         allow="autoplay; encrypted-media"
-        allowfullscreen
       ></iframe>
-      <DateTime date={props.date} />
+      <DateTimePretty date={date} />
     </div>
   );
 };

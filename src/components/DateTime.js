@@ -1,5 +1,7 @@
 const DateTime = (props) => {
-  return <p className="date">{props.date}</p>;
+  const {date} = props;
+
+  return <p className="date">{date}</p>;
 };
 
 export default DateTime;
