@@ -1,5 +1,10 @@
 import moment from 'moment/moment';
 
+/**
+ * HOC Компонент. Создается, как обертка компонента DateTime для представления даты в новом формате
+ *
+ * @param {string} props.date дата видео
+ */
 const withDateTimePretty = (Component) => (props) => {
   const { date } = props;
 
